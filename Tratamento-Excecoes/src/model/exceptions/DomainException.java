@@ -1,7 +1,7 @@
 package model.exceptions;
 
-// Exception = Obriga a tratar
-// RuntimeException = Compilador não obriga a tratar
+// Exception = compilador obriga a tratar ou propagar
+// RuntimeException = Compilador não obriga
 
 public class DomainException extends RuntimeException {
 
